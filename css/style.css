@@ -987,6 +987,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
   background: #1d1d1d;
+  font-size: 13px;
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
