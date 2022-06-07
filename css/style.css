@@ -1333,3 +1333,11 @@ input[type="text"] {
   background: #ef6c00;
   color: #fff;
 }
+
+.timeline-title a{
+  color: #fff;
+}
+
+.timeline-title a:hover{
+  color: #ef6c00;
+}
