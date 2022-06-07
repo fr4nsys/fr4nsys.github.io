@@ -354,13 +354,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #ef6c00;
 }
 
-.info a:hover a:hover, a:active, a:focus {
-  color: #ef6c00;
-  outline: none;
-  text-decoration: none;
-  background: #ef6c00;
-}
-
 .fh5co-social-icons {
   margin: 0;
   padding: 0;
