@@ -350,6 +350,16 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   color: #f5f5f5;
 }
+.second-block span a:hover {
+  color: #ef6c00;
+}
+
+.info a:hover a:hover, a:active, a:focus {
+  color: #ef6c00;
+  outline: none;
+  text-decoration: none;
+  background: #ef6c00;
+}
 
 .fh5co-social-icons {
   margin: 0;
@@ -1298,3 +1308,28 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.info .second-block a:hover {
+  color: #ef6c00;
+}
+
+.info .second-block a {
+  color: #fff;
+}
+
+.info .first-block a:hover {
+  color: #ef6c00;
+}
+
+#fh5co-footer a {
+  color: #fff;
+}
+
+#fh5co-footer a:hover {
+  color: #ef6c00;
+}
+
+#fh5co-started .btn:hover {
+  background: #ef6c00;
+  color: #fff;
+}
