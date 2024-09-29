@@ -1334,3 +1334,9 @@ input[type="text"] {
 .timeline-title a:hover{
   color: #ef6c00;
 }
+
+element.style {
+    background-image: url("images/cover_bg_3.jpg");
+    height: 100%;
+    background-position: 0px -100px;
+}
