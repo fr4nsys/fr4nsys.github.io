@@ -1349,3 +1349,13 @@ element.style {
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    h2, .h2 {
+        clear: both;
+    }
+
+    .col-md-8 {
+        clear: both;
+    }
+}
