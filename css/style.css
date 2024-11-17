@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #ef6c00;
 }
-
+/*
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
@@ -102,7 +102,33 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   /*background: rgba(255, 144, 0, 0.9);*/
-  background: #ef6c00;
+ /* background: #ef6c00;
+}
+*/
+#fh5co-header,
+.fh5co-cover {
+  /*background-color: transparent;*/
+  background-color: #1a1a1a; /* Negro gris oscuro */
+  background-image: linear-gradient(135deg, #1a1a1a, #3a3a3a); /* Gradiente oscuro */
+  color: #b4a0ff;
+  background: linear-gradient(2335deg, #fba45f, #ef6c00);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+#fh5co-header .overlay,
+.fh5co-cover .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: rgba(255, 144, 0, 0.9);*/
+  /*background: #530bde;*/
+  /*background: rgba(0, 0, 0, 0.7);*/
+  background: linear-gradient(2335deg, #fba45f, #ef6c00);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -1358,4 +1384,19 @@ element.style {
     .col-md-8 {
         clear: both;
     }
+}
+
+.fh5co-social-icons li a {
+    color: #efc600;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fh5co-social-icons li a:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+.fh5co-social-icons li a:active {
+    transform: scale(1.3);
+    color: #b4a0ff;
 }
